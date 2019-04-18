@@ -27,6 +27,12 @@ class UserController extends Controller{
         const user = await _ctx.model.User.findAll();
         _ctx.body = user;
     }
+    async echo(){
+        ctx.body = {
+            code: 200,
+            msg: '连接成功'
+        }
+    }
 }
 
 module.exports = UserController;
