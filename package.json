@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "egg-bin dev"
+    "dev": "egg-bin dev",
+    "lint": "eslint . --fix"
   },
   "author": "",
   "license": "ISC",
@@ -12,9 +13,12 @@
     "egg": "^2.21.1",
     "egg-sequelize": "^4.3.1",
     "egg-validate": "^2.0.2",
-    "mysql2": "^1.6.5"
+    "mysql2": "^1.6.5",
+    "ramda": "^0.26.1"
   },
   "devDependencies": {
-    "egg-bin": "^4.12.3"
+    "egg-bin": "^4.12.3",
+    "eslint": "^5.16.0",
+    "eslint-config-egg": "^7.3.1"
   }
 }

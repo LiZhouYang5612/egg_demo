@@ -1,9 +1,10 @@
+'use strict';
 exports.sequelize = {
-    enable: true,
-    package: 'egg-sequelize',
+  enable: true,
+  package: 'egg-sequelize',
 };
 
 exports.validate = {
-    enable: true,
-    package: 'egg-validate',
+  enable: true,
+  package: 'egg-validate',
 };
