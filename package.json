@@ -5,12 +5,15 @@
   "main": "index.js",
   "scripts": {
     "dev": "egg-bin dev",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "start": "eggctl start --daemon",
+    "stop": "eggctl stop"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "egg": "^2.21.1",
+    "egg-scripts": "^2.11.0",
     "egg-sequelize": "^4.3.1",
     "egg-validate": "^2.0.2",
     "mysql2": "^1.6.5",
